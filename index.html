@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuralFlow – AI-Driven Data Automation Platform</title>
+  <meta name="description" content="NeuralFlow is a next-generation AI-powered data automation platform. Automate workflows, extract insights, and scale operations with intelligent precision." />
+  <meta name="keywords" content="AI automation, data pipeline, machine learning, workflow automation, NeuralFlow" />
+  <meta name="author" content="NeuralFlow" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="NeuralFlow – AI-Driven Data Automation" />
+  <meta property="og:description" content="Automate complex data workflows with AI. Ship faster. Scale smarter." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://neuralflow.ai" />
+  <meta property="og:image" content="https://neuralflow.ai/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NeuralFlow – AI-Driven Data Automation" />
+  <meta name="twitter:description" content="Automate complex data workflows with AI. Ship faster. Scale smarter." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader" role="status" aria-label="Loading NeuralFlow">
+    <div class="loader-inner">
+      <span class="loader-label">NeuralFlow // Initializing</span>
+      <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header id="main-header">
+    <div class="container">
+      <nav aria-label="Main navigation">
+        <a href="#" class="nav-logo" aria-label="NeuralFlow home">
+          <div class="logo-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="#fff" d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034zM14 5.357L8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11zm-6.75 9.078V8.43L2 5.357V11c0 .27.144.518.378.651z"/></svg>
+          </div>
+          NeuralFlow
+        </a>
+
+        <ul class="nav-links" role="list">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#testimonials">Customers</a></li>
+          <li><a href="#" aria-label="Read NeuralFlow documentation">Docs</a></li>
+        </ul>
+
+        <a href="#pricing" class="nav-cta" aria-label="Get started with NeuralFlow">Get Started</a>
+
+        <button class="nav-mobile-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg">
+        <video class="hero-video" autoplay muted loop playsinline aria-hidden="true" src="video/185631-876210585_medium.mp4"></video>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-glow-2" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge fade-in" aria-label="Now live: v2.4 with real-time pipelines">
+              v2.4 — Real-Time Pipelines Live
+            </div>
+            <h1 id="hero-heading" class="hero-title fade-up" style="transition-delay:60ms">
+              Automate Data.<br/>
+              <span class="accent">Scale Intelligence.</span>
+            </h1>
+            <p class="hero-subtitle fade-up" style="transition-delay:120ms">
+              NeuralFlow connects your data sources, automates complex workflows,
+              and surfaces actionable intelligence—without writing a single pipeline script.
+            </p>
+            <div class="hero-actions fade-up" style="transition-delay:180ms">
+              <a href="#pricing" class="btn-primary" aria-label="Start building with NeuralFlow for free">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+                Start Building Free
+              </a>
+              <a href="#features" class="btn-ghost" aria-label="Explore NeuralFlow features">
+                See How It Works
+              </a>
+            </div>
+            <div class="hero-stats fade-up" style="transition-delay:240ms" aria-label="Platform statistics">
+              <div class="stat-item">
+                <div class="stat-value" aria-label="99.9 percent uptime">99.9%</div>
+                <div class="stat-label">Uptime SLA</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value" aria-label="8 billion events processed">8B+</div>
+                <div class="stat-label">Events / month</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-value" aria-label="12 millisecond latency">12ms</div>
+                <div class="stat-label">P99 Latency</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual fade-up" style="transition-delay:200ms" aria-hidden="true">
+            <div class="float-tag float-tag-1">↑ 94% Pipeline efficiency</div>
+            <div class="hero-card">
+              <div class="hero-card-header">
+                <div class="card-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <span class="card-title-mono">neuralflow.pipeline.ts</span>
+              </div>
+              <div class="pipeline-flow">
+                <div class="pipeline-node">
+                  <div class="node-icon" style="background:rgba(255,200,1,0.1)">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#FFC801" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 2.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/></svg>
+                  </div>
+                  <div class="node-info">
+                    <div class="node-name">Data Ingestion</div>
+                    <div class="node-status">Streaming 4 sources</div>
+                  </div>
+                  <span class="node-badge badge-active">Active</span>
+                </div>
+                <div class="pipeline-connector"></div>
+                <div class="pipeline-node">
+                  <div class="node-icon" style="background:rgba(255,153,50,0.1)">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#FF9932" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.3 24.3 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"/></svg>
+                  </div>
+                  <div class="node-info">
+                    <div class="node-name">AI Processing</div>
+                    <div class="node-status">Transforming batch #447</div>
+                  </div>
+                  <span class="node-badge badge-running">Running</span>
+                </div>
+                <div class="pipeline-connector"></div>
+                <div class="pipeline-node">
+                  <div class="node-icon" style="background:rgba(39,201,63,0.1)">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#27c93f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.25 18 9 11.25l4.306 4.307a11.95 11.95 0 0 1 5.814-5.519l2.74-1.22m0 0-5.94-2.28m5.94 2.28-2.28 5.941"/></svg>
+                  </div>
+                  <div class="node-info">
+                    <div class="node-name">Insight Export</div>
+                    <div class="node-status">Last run: 2s ago</div>
+                  </div>
+                  <span class="node-badge badge-done">Done</span>
+                </div>
+              </div>
+              <div class="hero-metric-row">
+                <div class="metric-chip">
+                  <div class="metric-num">1.2M</div>
+                  <div class="metric-desc">rows / sec</div>
+                </div>
+                <div class="metric-chip">
+                  <div class="metric-num">0 err</div>
+                  <div class="metric-desc">last 24h</div>
+                </div>
+              </div>
+            </div>
+            <div class="float-tag float-tag-2">⚡ Zero-code automation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section id="trust-strip" aria-label="Trusted by leading companies">
+      <div class="trust-label">Trusted by teams at</div>
+      <div class="marquee-track" aria-hidden="true">
+        <span class="marquee-item">Stripe<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Notion<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Linear<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Vercel<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Figma<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Atlassian<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Planetscale<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Clerk<span class="marquee-dot"></span></span>
+        <!-- duplicate for seamless loop -->
+        <span class="marquee-item">Stripe<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Notion<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Linear<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Vercel<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Figma<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Atlassian<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Planetscale<span class="marquee-dot"></span></span>
+        <span class="marquee-item">Clerk<span class="marquee-dot"></span></span>
+      </div>
+    </section>
+
+    <!-- FEATURES — BENTO / ACCORDION -->
+    <section id="features" aria-labelledby="features-heading">
+      <div class="container">
+        <header class="features-header">
+          <h2 id="features-heading" class="section-title fade-up" </h2>
+        </header>
+
+        <!-- DESKTOP: BENTO GRID -->
+        <div class="bento-grid" id="bento-grid" role="list" aria-label="Feature showcase">
+
+          <article class="bento-node fade-up" role="listitem" data-index="0" tabindex="0" aria-label="AI Pipeline Orchestration feature">
+            <div class="bento-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99"/></svg>
+            </div>
+            <div class="bento-tag">Pipeline Engine</div>
+            <h3 class="bento-title">AI-Orchestrated Pipelines</h3>
+            <p class="bento-desc">Describe your workflow in plain language. NeuralFlow generates, validates, and deploys the entire pipeline graph—no YAML, no Airflow DAGs.</p>
+            <div class="bento-visual" aria-hidden="true">
+              <div class="mini-nodes-visual">
+                <div class="mnode">Ingest</div>
+                <span class="mnode-arrow">→</span>
+                <div class="mnode">Transform</div>
+                <span class="mnode-arrow">→</span>
+                <div class="mnode">Enrich</div>
+                <span class="mnode-arrow">→</span>
+                <div class="mnode">Export</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="bento-node fade-up" role="listitem" data-index="1" tabindex="0" aria-label="Real-Time Analytics feature" style="transition-delay:40ms">
+            <div class="bento-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 0 1 5.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941"/></svg>
+            </div>
+            <div class="bento-tag">Analytics</div>
+            <h3 class="bento-title">Real-Time Insight Engine</h3>
+            <p class="bento-desc">Sub-15ms query latency across billions of events. Stream anomaly detection baked in.</p>
+            <div class="bento-visual" aria-hidden="true">
+              <div class="mini-bars">
+                <div class="mini-bar" style="height:40%"></div>
+                <div class="mini-bar" style="height:65%"></div>
+                <div class="mini-bar" style="height:50%"></div>
+                <div class="mini-bar" style="height:80%"></div>
+                <div class="mini-bar" style="height:55%"></div>
+                <div class="mini-bar" style="height:90%"></div>
+                <div class="mini-bar" style="height:70%"></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="bento-node fade-up" role="listitem" data-index="2" tabindex="0" aria-label="Smart Connectors feature" style="transition-delay:80ms">
+            <div class="bento-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+            </div>
+            <div class="bento-tag">Connectors</div>
+            <h3 class="bento-title">200+ Native Connectors</h3>
+            <p class="bento-desc">Plug into any data source—databases, SaaS tools, event streams—in under 60 seconds.</p>
+          </article>
+
+          <article class="bento-node fade-up" role="listitem" data-index="3" tabindex="0" aria-label="Adaptive Schema feature" style="transition-delay:100ms">
+            <div class="bento-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93c.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204c.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78c-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107c-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93c-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204c-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78c.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107c.397-.165.71-.505.78-.929l.15-.894Z"/><path d="M15 12a3 3 0 1 1-6 0a3 3 0 0 1 6 0Z"/></svg>
+            </div>
+            <div class="bento-tag">Automation</div>
+            <h3 class="bento-title">Adaptive Schema Evolution</h3>
+            <p class="bento-desc">Schema drift? NeuralFlow detects, adapts, and migrates downstream consumers automatically—zero manual intervention.</p>
+          </article>
+
+          <article class="bento-node fade-up" role="listitem" data-index="4" tabindex="0" aria-label="Observability feature" style="transition-delay:120ms">
+            <div class="bento-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/><path d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/></svg>
+            </div>
+            <div class="bento-tag">Observability</div>
+            <h3 class="bento-title">Deep Pipeline Observability</h3>
+            <p class="bento-desc">Full trace visibility, latency heatmaps, and cost attribution per transformation node—live.</p>
+          </article>
+
+        </div><!-- /bento-grid -->
+
+        <!-- MOBILE: ACCORDION -->
+        <div class="accordion-list" id="accordion-list" role="list" aria-label="Feature list">
+          <!-- Items are created by JS -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" aria-labelledby="pricing-heading">
+      <div class="container">
+        <header class="pricing-header">
+          <h2 id="pricing-heading" class="section-title fade-up"></h2>
+        </header>
+
+        <div class="pricing-controls" role="group" aria-label="Pricing configuration">
+          <!-- Billing cycle toggle -->
+          <div class="billing-toggle" role="group" aria-label="Select billing cycle">
+            <span class="toggle-label active" id="label-monthly">Monthly</span>
+            <label class="toggle-switch" aria-label="Toggle annual billing">
+              <input type="checkbox" id="billing-toggle" aria-checked="false" />
+              <div class="toggle-track"></div>
+              <div class="toggle-thumb"></div>
+            </label>
+            <span class="toggle-label" id="label-annual">
+              Annual <span class="annual-badge">Save 20%</span>
+            </span>
+          </div>
+
+          <!-- Currency switcher — ISOLATED via data attributes, no global reflow -->
+          <div class="currency-select-wrap">
+            <label for="currency-select" class="sr-only">Select currency</label>
+            <select class="currency-select" id="currency-select" aria-label="Select currency">
+              <option value="INR">₹ INR</option>
+              <option value="USD">$ USD</option>
+              <option value="EUR">€ EUR</option>
+            </select>
+            <svg class="select-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m19.5 8.25-7.5 7.5-7.5-7.5"/></svg>
+          </div>
+        </div>
+
+        <div class="pricing-grid" aria-label="Pricing tiers">
+
+          <!-- Starter -->
+          <article class="pricing-card fade-up" aria-labelledby="tier-starter-name">
+            <div class="card-tier-badge">
+              <svg width="12" height="12" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="currentColor" d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034zM14 5.357L8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11zm-6.75 9.078V8.43L2 5.357V11c0 .27.144.518.378.651z"/></svg>
+              Starter
+            </div>
+            <div class="tier-name" id="tier-starter-name">Launch</div>
+            <div class="price-display" aria-live="polite" aria-label="Starter tier price">
+              <span class="price-currency" data-price-symbol="starter">₹</span>
+              <span class="price-amount" data-price-amount="starter">1,999</span>
+              <span class="price-period">/mo</span>
+            </div>
+            <div class="price-savings" data-savings="starter" aria-live="polite"></div>
+            <div class="pricing-divider"></div>
+            <ul class="feature-list" role="list" aria-label="Starter plan features">
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>Up to 5M events / month</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>10 pipeline nodes</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>3 native connectors</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>7-day data retention</li>
+              <li class="feature-item"><span class="feature-cross" aria-label="Not included"></span>AI schema evolution</li>
+              <li class="feature-item"><span class="feature-cross" aria-label="Not included"></span>Priority support</li>
+            </ul>
+            <button class="pricing-cta cta-outline" type="button" aria-label="Get started with Launch plan">Get Started</button>
+          </article>
+
+          <!-- Pro (featured) -->
+          <article class="pricing-card featured fade-up" aria-labelledby="tier-pro-name" style="transition-delay:60ms">
+            <div class="card-tier-badge">
+              <svg width="12" height="12" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="currentColor" d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034zM14 5.357L8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11zm-6.75 9.078V8.43L2 5.357V11c0 .27.144.518.378.651z"/></svg>
+              Pro
+              <span class="featured-chip">Most Popular</span>
+            </div>
+            <div class="tier-name" id="tier-pro-name">Scale</div>
+            <div class="price-display" aria-live="polite" aria-label="Pro tier price">
+              <span class="price-currency" data-price-symbol="pro">₹</span>
+              <span class="price-amount" data-price-amount="pro">7,499</span>
+              <span class="price-period">/mo</span>
+            </div>
+            <div class="price-savings" data-savings="pro" aria-live="polite"></div>
+            <div class="pricing-divider"></div>
+            <ul class="feature-list" role="list" aria-label="Pro plan features">
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>Up to 500M events / month</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>Unlimited pipeline nodes</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>200+ native connectors</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>90-day data retention</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>AI schema evolution</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>Priority support</li>
+            </ul>
+            <button class="pricing-cta cta-filled" type="button" aria-label="Get started with Scale plan">Start Free Trial</button>
+          </article>
+
+          <!-- Enterprise -->
+          <article class="pricing-card fade-up" aria-labelledby="tier-enterprise-name" style="transition-delay:120ms">
+            <div class="card-tier-badge">
+              <svg width="12" height="12" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="currentColor" d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034zM14 5.357L8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11zm-6.75 9.078V8.43L2 5.357V11c0 .27.144.518.378.651z"/></svg>
+              Enterprise
+            </div>
+            <div class="tier-name" id="tier-enterprise-name">Infinite</div>
+            <div class="price-display" aria-live="polite" aria-label="Enterprise tier price">
+              <span class="price-currency" data-price-symbol="enterprise">₹</span>
+              <span class="price-amount" data-price-amount="enterprise">24,999</span>
+              <span class="price-period">/mo</span>
+            </div>
+            <div class="price-savings" data-savings="enterprise" aria-live="polite"></div>
+            <div class="pricing-divider"></div>
+            <ul class="feature-list" role="list" aria-label="Enterprise plan features">
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>Unlimited events</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>Dedicated infrastructure</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>Custom connectors + SLA</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>Unlimited data retention</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>AI schema evolution</li>
+              <li class="feature-item"><span class="feature-check" aria-label="Included"></span>24/7 dedicated support</li>
+            </ul>
+            <button class="pricing-cta cta-outline" type="button" aria-label="Contact sales for Enterprise plan">Contact Sales</button>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">Customer Stories</div>
+        <h2 id="testimonials-heading" class="section-title fade-up">What teams are shipping</h2>
+        <div class="testimonial-grid" aria-label="Customer testimonials">
+
+          <article class="testimonial-card fade-up" aria-labelledby="testimonial-1-author">
+            <div class="quote-mark" aria-hidden="true">"</div>
+            <p class="testimonial-text">
+              NeuralFlow cut our pipeline build time by 80%. What used to take a team of three data engineers two sprints now deploys in an afternoon—and it's more reliable.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">SK</div>
+              <div>
+                <div class="author-name" id="testimonial-1-author">Sarah K.</div>
+                <div class="author-role">Head of Data, Pulse Analytics</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card fade-up" aria-labelledby="testimonial-2-author" style="transition-delay:60ms">
+            <div class="quote-mark" aria-hidden="true">"</div>
+            <p class="testimonial-text">
+              The schema evolution feature alone saved us from a production incident that would have cost six figures. It just handled the upstream change and notified us.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">RJ</div>
+              <div>
+                <div class="author-name" id="testimonial-2-author">Rohan J.</div>
+                <div class="author-role">CTO, Fieldstack</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card fade-up" aria-labelledby="testimonial-3-author" style="transition-delay:120ms">
+            <div class="quote-mark" aria-hidden="true">"</div>
+            <p class="testimonial-text">
+              We moved our entire ML feature pipeline from Airflow to NeuralFlow in a weekend. The observability layer is on another level—finally we can see exactly where latency comes from.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">MK</div>
+              <div>
+                <div class="author-name" id="testimonial-3-author">Maya K.</div>
+                <div class="author-role">ML Platform Lead, Zeno AI</div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta-inner">
+          <div class="section-label" aria-hidden="true">Get Started</div>
+          <h2 id="cta-heading" class="cta-title fade-up">
+            Ready to automate your<br/>
+            <span class="accent">data future?</span>
+          </h2>
+          <p class="cta-sub fade-up" style="transition-delay:60ms">
+            14-day free trial. No credit card required. Cancel anytime.
+          </p>
+          <div class="cta-actions fade-up" style="transition-delay:120ms">
+            <a href="#pricing" class="btn-primary" aria-label="Start your free trial of NeuralFlow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8.25 4.5 7.5 7.5-7.5 7.5"/></svg>
+              Start Free Trial
+            </a>
+            <a href="#" class="btn-ghost" aria-label="Book a NeuralFlow demo">Book a Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-copy">© 2026 NeuralFlow, Inc. All rights reserved.</span>
+        <nav class="footer-links" aria-label="Footer links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Security</a>
+          <a href="#">Status</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Visually hidden utility class -->
+  <style>.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}</style>
+
+  <script src="script.js" ></script>
+
+</body>
+</html>
